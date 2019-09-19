@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'roboto'; /*a name to be used later*/
+    src: "font/roboto.ttf"; /*URL to font*/
+}
+html {
+  background-color: #03191E;
+}
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #b50723;
+  height: 100%;
+  width: 100%;
+}
+img {
+  position: relative;
+  top: 40%; left: 50%;
+  transform: translate(-50%, -50%) scale(0.4);
+}
+img.a {
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+}
+t {
+  position: fixed;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%,0);
+  color: white;
+  font-size: 83px;
+  font-family: "Verdana";
+}
+loginform {
+
+  position: fixed;
+  border-radius: 25px;
+  border: 2px solid #b50723;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
