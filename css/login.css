@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'roboto'; /*a name to be used later*/
-    src: "font/roboto.ttf"; /*URL to font*/
-}
+
 html {
   background-color: #03191E;
 }
@@ -35,11 +32,23 @@ t {
 loginform {
 
   position: fixed;
-  border-radius: 25px;
-  border: 2px solid #b50723;
-  padding: 20px;
-  width: 200px;
-  height: 200px;
+  background-color: #ffffffeb;
+  border-radius: 5px;
+  width: 400px;
+  height: 225px;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
+}
+.control0, .control1 {
+  position: relative;
+  margin-top: 25px;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+a {
+
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%,0);
 }
